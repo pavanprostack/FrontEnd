@@ -9,7 +9,7 @@ function on_mouseOut(){
 }
 
 function changeColor(){
-    document.getElementById('king').style.backgroundColor="red"
+    document.getElementById('king').style.backgroundColor="red";
 }
 
 function onDoubleClick(){
