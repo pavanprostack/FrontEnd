@@ -1,0 +1,161 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="navbar navbar-dark bg-success">
+            <a href="#" class="navbar-brand">Mock Test</a>
+
+        </div>
+
+        <form>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-3">
+                   <div class="form-group">
+                    <input type="text" placeholder="Name" class="form-control">
+                   </div>
+
+                </div>
+                <div class="col-3">
+                    <div class="form-group">
+                        <input type="text" placeholder="Role" class="form-control">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="form-group">
+                        <input type="number" placeholder="Age" class="form-control">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div >
+                       <button  class="btn btn-primary" onclick="on_Click()" >submit</button>
+                      
+                       <script>
+                               function on_Click(){
+                               
+                               alert("Submitted Successfully")
+                               }
+
+
+                       </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+    <div class="container mt-5">
+        <div class="row">
+           <div class="col-8">
+            <table class="table table-hover table-striped">
+                <thead class="bg-info">
+                    <tr>
+                        <th>S.No</th>
+                        <th>Name</th>
+                        <th>Role</th>
+                        <th>Age</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Viratkohli</td>
+                        <td>Batsman</td>
+                        <td>33</td>
+                        <td>-</td>                        
+                        <td>-</td> 
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>RohitSharma</td>
+                        <td>Batsman</td>
+                        <td>35</td>
+                        <td>-</td> 
+                        <td>-</td> 
+                                               
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Sachin</td>
+                        <td>Batsman</td>
+                        <td>49</td> 
+                        <td>-</td>
+                        <td>-</td>                       
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Rishabh Panth</td>
+                        <td>Batsman</td>
+                        <td>24</td>
+                        <td>-</td>  
+                        <td>-</td>                     
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td>Chahal</td>
+                        <td>Bowler</td>
+                        <td>32</td> 
+                        <td>-</td> 
+                        <td>-</td>                      
+                    </tr>
+                    <tr>
+                        <td>6.</td>
+                        <td>Hardhik</td>
+                        <td>Allrounder</td>
+                        <td>28</td>  
+                        <td>-</td> 
+                        <td>-</td>                     
+                    </tr>
+
+
+                </tbody>
+            </table>
+           </div>
+        </div>
+        
+    </div>
+
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-1">
+                    <button class="btn btn-success" onclick="batting()">Batting</button>
+                    <p id="abc"></p>
+                    <script>
+                        function batting(){
+                            document.getElementById("abc").innerHTML="Viratkohli,RohithSharma,Sachin,Rishabh Panth"
+                        }
+                    </script>
+            </div>
+            <div class="col-1">
+                    <button class="btn btn-danger" onclick="bowlers()">Bowlers</button>
+                    <p id="ok"></p>
+                    <script>
+                           function bowlers(){
+                               document.getElementById("ok").innerHTML="Chahal"
+                           }
+                    </script>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-secondary" onclick="all_Rounders()">Allrounders</button>
+                <p id="omg"></p>
+                <script>
+                    function all_Rounders() {
+                        document.getElementById("omg").innerHTML="Hardhik"
+                    }
+                </script>
+            </div>
+            <div class="col-1">
+                <button class="btn btn-warning">All</button>
+            </div>
+        </div>
+    </div>
+
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>create tables</title>
+        <style>
+            table,th,td{
+                 
+                 text-align: center;    
+                 border: 1px solid #4c00ff; /*it gives double border table */
+                 border-radius: 10px;  /* it gives elliptical shape table cells if we want to give this dont use border collapse*/
+                 border-color: red;
+                background-color:aqua;
+              border-style:dashed; /*These are the border styles: dotted,solid,double,groove,ridge,inset,outset,none,hidden,dashed.*/  
+            }
+            table{
+                width:60% ;
+            }
+            th{
+                width: 25%;
+                height:40px ;
+            }
+            td{
+                
+                height:30px ; 
+            }
+        </style>
+    </head>
+    <body>
+        <h2>student list</h2>
+        <table>
+            <tr >
+                <th >S.NO</th>
+                <th colspan="2">STUDENT NAME</th> <!--colspan combines the no.of columns-->
+                <th >BRANCH</th>
+              <!--<th >ROLL.NO</th>--> 
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>pavankalyan</td>
+                <td>civilengineering</td> 
+                <td>143e1a0107</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>vamsi</td>
+                <td>civilengineering</td> 
+                <td>143e1a0103</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>sai</td>
+                <td>civilengineering</td> 
+                <td>143e1a0102</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>seenu</td>
+                <td>civilengineering</td> 
+                <td>143e1a0105</td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>sunny</td>
+                <td>civilengineering</td> 
+                <td>143e1a0109</td>
+            </tr>
+        </table>
+    </body>
+</html>
