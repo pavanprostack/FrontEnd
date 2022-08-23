@@ -25,3 +25,9 @@ function onBlur_Handler(){
     console.log(name);
     document.getElementById("blur").value = name.toUpperCase();
 }
+
+function changeCase(){
+    let name=document.getElementById('onblur').value
+    document.getElementById('onblur').value = name.toUpperCase();
+    
+}
