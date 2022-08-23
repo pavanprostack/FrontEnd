@@ -11,14 +11,14 @@
 .container{
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: top;
     align-items: center;
 } 
 
 
 .calculator{
-    background-color:black;
-    padding: 20px;
+    background-color:#ecf0f3;
+    padding: 15px;
     border-radius: 30px;
     box-shadow: inset 5px 5px 12px #ffffff,            /* inside of box  5px= horizontal, vertical  12px=blur with white color  */
                       5px 5px 12px rgba(0,0,0,.16);    /* outside of the box    */
@@ -29,7 +29,7 @@
 
 input{
     grid-column: span 4;
-    height: 70px;
+    height: 68px;
     width: 250px;
     background-color: #ecf0f3;
     box-shadow: inset -5px -5px 12px #ffffff,
