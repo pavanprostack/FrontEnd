@@ -78,6 +78,8 @@ function wish(mg){
 let village=wish("GoodEvening")
 console.log(village);  
 
+
+
 function wish(good){
     return "its" +good
 
