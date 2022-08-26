@@ -1,6 +1,6 @@
 
 
-class student{
+class Student{
     student_id=107;
     stdnt(){
        return "Gm"                        // here method is expecting return.
@@ -8,8 +8,8 @@ class student{
     }
 }
 
-let r=new student();
-let r1=new student();
+let r=new Student();
+let r1=new Student();
 
 console.log(r.student_id);
 console.log(r.stdnt());
@@ -21,7 +21,7 @@ console.log(r1.stdnt());
 
 
 
-class student_Details{
+class Student_Details{
     student_Id=101;
     student_name="pavan";
     student_Marks(a,b){
@@ -31,14 +31,14 @@ class student_Details{
     
    
 }
-b=new student_Details();
+b=new Student_Details();
 console.log(b.student_Marks(45,50));
 console.log(b.student_Id);
 console.log(b.student_name);         
 
 
 
-class job_Details{
+class Job_Details{
     job_Id=102;
     emp_Name="pavan"
     emp_Salary=80000;
@@ -48,7 +48,7 @@ class job_Details{
     }
 
 }
-let r3=new job_Details();
+let r3=new Job_Details();
 console.log(r3.emp_Salary);
 console.log(r3.employee(200));
 console.log(r3.emp_Name);

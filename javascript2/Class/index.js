@@ -1,9 +1,9 @@
 
 
-class employee{}
+class Employee{}
 
-console.log( new employee());
+console.log( new Employee());
 
 
-class emp{}
-console.log(new emp()); 
+class Emp{}
+console.log(new Emp()); 
