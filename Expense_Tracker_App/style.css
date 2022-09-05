@@ -120,6 +120,12 @@ button{
     padding: 10px;
     width: 100%;
     font-size: 1.2rem;
+    transition: color 0.3 ease;
+}
+
+
+.btn:hover{
+    background-color: #247118;
 }
 
 
@@ -165,4 +171,11 @@ ul{
 .right_side button{
     color: white;
     cursor: pointer;
+    transition: color o.3 ease;
+}
+
+
+.right_side button:hover{
+    color: rgb(26, 107, 26);
+    
 }
