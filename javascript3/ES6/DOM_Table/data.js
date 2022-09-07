@@ -117,3 +117,5 @@ function student_Data(){
   }
   document.getElementById("table_Data").innerHTML=rows
 }
+
+
