@@ -15,3 +15,6 @@ let new_employee = {...employee, password:newpswd, creditCardNo:newCC}
 
 console.log(employee);
 console.log(new_employee);
+
+//let comparision = personelData.compareSync("132343", newpswd.password )
+//console.log(comparision);
