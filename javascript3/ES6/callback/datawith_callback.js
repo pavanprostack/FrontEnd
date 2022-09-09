@@ -16,9 +16,9 @@ let get_Employees = ()=>{
         employees.forEach((employee)=>{
              rows+=`<tr>
                         <td>${employee.id}</td>
-                        <td>${employee.name}</td>
+                        <td>${employee.name.toUpperCase()}</td>
                         <td>${employee.email}</td>
-                        <td>${employee.gender}</td>
+                        <td>${employee.gender.substring(0,1)}</td>
                     </tr>`
         })
         document.getElementById('table_Data').innerHTML=rows
