@@ -107,14 +107,14 @@ let students_Details = [{"id":1,"name":"Ugo","email":"uemeline0@ftc.gov","gender
 
 function student_Data(){
     let rows="";
-  for(let i=0; i<= students_Details.length - 1; i++){
+    students_Details.forEach((std)=>{
     rows+=`<tr>
-                <td>${students_Details[i].id}</td>
-                <td>${students_Details[i].name.toUpperCase()}</td>
-                <td>${students_Details[i].email}</td>
-                <td>${students_Details[i].gender.substring(0,1)}</td>
+                <td>${std.id}</td>
+                <td>${std.name.toUpperCase()}</td>
+                <td>${std.email}</td>
+                <td>${std.gender.substring(0,1)}</td>
            </tr>`
-  }
+          })
   document.getElementById("table_Data").innerHTML=rows
 }
 
