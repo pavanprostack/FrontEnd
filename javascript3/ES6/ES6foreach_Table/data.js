@@ -115,7 +115,7 @@ function student_Data(){
                 <td>${std.gender.substring(0,1)}</td>
            </tr>`
           })
-  document.getElementById("table_Data").innerHTML=rows
+          document.getElementById("table_Data").innerHTML=rows
 }
 
 
