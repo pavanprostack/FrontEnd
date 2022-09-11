@@ -1,8 +1,8 @@
 
 
-class Employee{}
+class Employee{}        // Using new keyword we can create object for the class.
 
-console.log( new Employee());
+new Employee()          // it is Object for the class.
 
 
 class Emp{}

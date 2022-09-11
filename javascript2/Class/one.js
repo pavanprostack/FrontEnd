@@ -1,8 +1,8 @@
 
 
-class Student{
-    student_id=107;
-    stdnt(){
+class Student{                            // class contains properties and methods.
+    student_id=107;    //property
+    stdnt(){            //method
        return "Gm"                        // here method is expecting return.
 
     }
