@@ -1,3 +1,5 @@
+
+
 class Employee{
 
     ename;
@@ -26,3 +28,29 @@ class Details extends Employee {               // here invoking parent class usi
 }
 let b= new Details("sai",102,45000,"Mudigedu")
 console.log(b);
+
+
+/*
+
+class Employees{
+    eid;
+    ename;
+    constructor(id, name){
+        this.eid = id;
+        this.ename = name;
+    }
+}
+
+
+class list extends Employees {
+    constructor(id, name, address, pincode){
+        super(id, name);
+        this.address = address;
+        this.pincode = pincode;
+    }
+}
+
+let r = new list(101, "kalyan", "Mudigedu", "524409")
+console.log(r);
+
+*/

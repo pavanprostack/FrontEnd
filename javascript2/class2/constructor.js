@@ -6,7 +6,7 @@ class Employee{
 
     }
 }
-let e=new Employee();
+let e=new Employee();            //with the help of object ony it will print console.
 console.log(e);
 
 
@@ -33,5 +33,4 @@ console.log(s);
 let s1=new Student(102,"sai",40000);
 console.log(s1);
 console.log( s.getDetails());
-
 

@@ -33,7 +33,7 @@ let students = [{"id":1,"name":"Ugo","email":"uemeline0@ftc.gov","gender":"Male"
 {"id":5,"name":"Loni","email":"larnatt4@slashdot.org","gender":"Female"}]
 
 
-students.map((student)=>{                       // it returns only elements. not array.
+students.map((student)=>{                       // it returns only elements.
       console.log(student.name);
 })
 
