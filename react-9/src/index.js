@@ -1,6 +1,6 @@
 
 import reactDOM from 'react-dom'
-import App from './app'
+import App from './app.js'
 
 // reactDOM.render(1,2)                                //Element means Group of tags.
 
