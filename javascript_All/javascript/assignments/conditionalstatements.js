@@ -32,7 +32,7 @@ else{
 
 // 3. given number is positive or negative or zero
 
-var num=0;
+var num=-1;
 
 if(num>0){
     console.log("it is positive number");
