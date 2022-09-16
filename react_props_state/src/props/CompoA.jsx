@@ -1,7 +1,7 @@
 import React from 'react'
 import CompoB from './CompoB'
 
-function CompoA(){
+let CompoA = ()=>{
     let a=10;
     let arr=[12,23,34,45]
     let emp={

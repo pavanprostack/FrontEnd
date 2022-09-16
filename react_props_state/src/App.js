@@ -1,12 +1,14 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
-import CompoA from './props/CompoA'
+// import CompoA from './props/CompoA'
 
-function App(){
+import CompA from './props2/CompA'
+
+let App = ()=>{
     return <div>
         <Navbar />
         <h1>This is Using props examples</h1>
-        <CompoA />
+        <CompA />
     </div>
 }
 export default App
