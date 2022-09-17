@@ -2,9 +2,9 @@ import React from 'react'
 
 import Navbar from './Navbar/Navbar'
 
-import UpdateMsg from './EmployeesForceUpdate/UpdateMsg'
+//import UpdateMsg from './EmployeesForceUpdate/UpdateMsg'          // this is Force Update
 
-import UpdateMessage from './EmployeesStateUpdate/UpdateMessage'
+import UpdateMessage from './EmployeesStateUpdate/UpdateMessage'    // this is State Update
 
 class App extends React.Component{
     render(){
@@ -12,7 +12,7 @@ class App extends React.Component{
             <Navbar />
             <div className='container mt-5'>
             <h1>Iam Learning State Concept in React</h1>
-            <UpdateMsg />
+            {/* <UpdateMsg /> */}
             <UpdateMessage />
 
             </div>           
