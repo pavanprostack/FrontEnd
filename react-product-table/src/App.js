@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
 // import Message from './Message/Message'
-import Product from './Product/Product'
+import ProductTable from './ProductTable/ProductTable'
 
 class App extends React.Component{
     render(){
@@ -9,7 +9,8 @@ class App extends React.Component{
                 <Navbar />
                 <h1>React Table</h1>
                 {/* <Message /> */}
-                <Product />
+                {/* <Product /> */}
+                <ProductTable />
             </div>
     }
 }
