@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Employee extends React.Component{
+class Message extends React.Component{
     state = {
         salary : 30000
     }
@@ -20,4 +20,4 @@ class Employee extends React.Component{
         </div>
     }
 }
-export default Employee
+export default Message
