@@ -1,10 +1,10 @@
 
-//  in object we cant use for(of) statement, we use only for(in) statement.
+// in object we cant use for(of) statement, we use only for(in) statement.
 //  object is not iterable object.
 //  object does not allow duplicates.
 //  object allows heterogenous values.
 
-/*
+
 
 
 // 1.
@@ -88,17 +88,17 @@ console.log(emp.sal);
 
 // 5. Array Objet using for(of) Loop.
 
-var employee=[
+var student=[
     {id:101, name:"pavan", sal:45000},
     {id:102, name:"sai", sal:55000},
     {id:103, name:"vamsi", sal:65000}
 ]
 
-for(emp of employee){
+for(emp of student){
     
     console.log(emp.id);
    
-}    */
+}   
 
 
 
@@ -106,14 +106,14 @@ for(emp of employee){
 // 6. Array Objet using for Loop.
 
 
-var employee=[
+var users=[
     {id:101, name:"pavan", sal:45000},
     {id:102, name:"sai", sal:55000},
     {id:103, name:"vamsi", sal:65000}
 ]
 
-for(i=0; i<=employee.length-1; i++){
-    console.log(employee[i].id);
+for(i=0; i<=users.length-1; i++){
+    console.log(users[i].id);
 }
 
 

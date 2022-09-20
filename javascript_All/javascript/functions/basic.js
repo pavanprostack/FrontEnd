@@ -80,8 +80,8 @@ console.log(village);
 
 
 
-function wish(good){
-    return "its" +good
+function wish(msg){
+    return "its" +msg
 
 }
 

@@ -1,5 +1,5 @@
 
-/*
+
 
 
 let a=[10,20,30,40]
@@ -33,15 +33,15 @@ console.log(removed_ele1);
 //indexof method.
 
 
-let a=[10,20,30,37]
-let d=a.indexOf(20)     // if given index value is there in the array then result shows that particular index number.
+let arr=[10,20,30,37]
+let d=arr.indexOf(20)     // if given index value is there in the array then result shows that particular index number.
 
 console.log(d);
 
 
 
 let a1=[10,20,30,37]
-let d1=a.indexOf(200)   // if given index value is not there in the array then result shows -1.
+let d1=a.indexOf(200)   // if given index value is not there in the array then result gives -1.
 
 console.log(d1);
 
@@ -52,9 +52,9 @@ console.log(d1);
 
 let names=["pavan","sai","vamsi","anand","subbu"];
 
-let order= names.reverse()
+let order= names.reverse()                 // Array.reverse()
 
-console.log(order);     */
+console.log(order);     
 
 
 
