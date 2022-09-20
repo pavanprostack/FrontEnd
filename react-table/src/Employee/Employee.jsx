@@ -72,7 +72,7 @@ class Employee extends React.Component {
               this.state.users.map((user, index)=>{
                  
                   return <tr key={index}>
-                    <td>{index}</td>
+                    {/* <td>{index}</td> */}
                     <td>{user.id}</td>
                     <td>{user.first_name}</td>
                     <td>{user.last_name}</td>
