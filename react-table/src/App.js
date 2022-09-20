@@ -1,7 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
 // import Message from './Message/Message'
-import ProductTable from './ProductTable/ProductTable'
+// import ProductTable from './ProductTable/ProductTable'
+import Employee from './Employee/Employee'
 
 class App extends React.Component{
     render(){
@@ -10,7 +11,8 @@ class App extends React.Component{
                 <h1>React Table</h1>
                 {/* <Message /> */}
                 {/* <Product /> */}
-                <ProductTable />
+                {/* <ProductTable /> */}
+                <Employee />
             </div>
     }
 }
