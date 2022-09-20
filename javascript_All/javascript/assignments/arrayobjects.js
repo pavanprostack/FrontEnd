@@ -1,4 +1,4 @@
-/*
+
 
 
 // 1. how to create array of objects in javascript.
@@ -22,13 +22,13 @@ let array1=[{id:101, name:"pavan", sal:45000},{id:102, name:"sai",sal:55000},{id
 
 console.log(array1[2].id);
 console.log(array1[2].name);
-console.log(array1[2].sal);           */
+console.log(array1[2].sal);           
 
 
 
 // 3. javascript array push method.
 
-let a=[23,33,44,55,66]
+let a=[23,33,44,55,66]               // insert element at the end of the Array.
 
 a.push(100);
 
@@ -37,7 +37,7 @@ console.log(a);
 
 // 4. javascript array pop method
 
-let b=[23,33,44,55,66];
+let b=[23,33,44,55,66];             //delete the element at the End of the array.     
 
 b.pop()
 

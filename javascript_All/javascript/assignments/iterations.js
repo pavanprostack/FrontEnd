@@ -1,6 +1,6 @@
 // Loops(Iterations)
 
-/*
+
 
 // 1. WAP print 1 to 10 numbers using a while loop.
 
@@ -285,18 +285,21 @@ while(numb!=0){
 
 }
 
-console.log("riverse number : "+ rev1);    */
+console.log("riverse number : "+ rev1);   
 
 
-// let arr=[1,2,3,4,5]
 
-// for(let i=0; i<=arr.length-1; i++){
-//     for(let j=0; j<=i; j++){
-//         console.log(arr[i][j])
+// Table
 
-//     }
+ let arr=[1,2,3,4,5]
 
-// }
+ for(let i=0; i<=arr.length-1; i++){
+     for(let j=0; j<=i; j++){
+         console.log(arr[i][j])
+
+    }
+
+ }
 
 
 
