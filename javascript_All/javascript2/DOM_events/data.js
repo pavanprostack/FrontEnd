@@ -8,7 +8,7 @@ function on_mouseOut(){
     document.getElementById('mouseOut').style.backgroundColor="green";
 }
 
-function changeColor(){
+changeColor = ()=>{
     document.getElementById('king').style.backgroundColor="red";
 }
 
