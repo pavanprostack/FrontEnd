@@ -1,6 +1,7 @@
 import React  from 'react'
 import Navbar from './Navbar/Navbar'
-import FormValidation from './FormValidation/FormValidation'
+// import FormValidation from './FormValidation/FormValidation'
+import RegistrationForm from './RegistrationForm/RegistrationForm'
 
 
     class App extends React.Component {
@@ -8,8 +9,9 @@ import FormValidation from './FormValidation/FormValidation'
     return (
         <div>
               <Navbar />
-              <h1>Form validations</h1>
-              <FormValidation />
+              <h1 className='text-primary'><i>Registration Form</i></h1>
+              {/* <FormValidation /> */}
+              <RegistrationForm />
         </div>
       
     )
