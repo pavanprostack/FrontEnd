@@ -1,4 +1,4 @@
-/*
+
 let arr = [23,45,56,67]
 
 let v = arr.forEach((a)=>{       // Foreach does n't return value
@@ -23,7 +23,7 @@ array.forEach((arr)=>{
 })
 console.log(arr.name);
 
-*/
+
 
 
 

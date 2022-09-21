@@ -16,7 +16,7 @@ let CompoA = ()=>{
         <h3>employeeSalary = {emp.salary}</h3>
         <h4>array={arr[3]}</h4>
         <hr />
-        <CompoB age={25} eDetails={emp} arrElements={arr} />
+        <CompoB age={25} eDetails={emp} arrElements={arr} number={a} />
     </div>
 }
 

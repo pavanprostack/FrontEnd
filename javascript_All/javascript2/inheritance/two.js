@@ -1,7 +1,7 @@
 class Parent{
     constructor(message){
         console.log(message);
-        console.log("hello World");
+       // console.log("hello World");
 
     }
 }
