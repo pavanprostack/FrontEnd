@@ -8,10 +8,10 @@ console.log(r1);
 
 
 
-function adding(a,b,c=4){                  // Normal Function.
+function Adding(a,b,c=4){                  // Normal Function.
     return a+b+1;
 }
-let r2=adding(20,30,40);
+let r2=Adding(20,30,40);
 console.log(r2);
 
 
