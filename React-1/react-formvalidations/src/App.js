@@ -2,7 +2,7 @@ import React  from 'react'
 import Navbar from './Navbar/Navbar'
 // import FormValidation from './FormValidation/FormValidation'
 import RegistrationForm from './RegistrationForm/RegistrationForm'
-// import Signup from './CompleteRegistrationForm/Signup'
+// import Signup from './CompleteLoginForm/Signup'
 
 
     class App extends React.Component {
