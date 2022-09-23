@@ -105,8 +105,8 @@
     return new Promise((success, failure)=>{
         setTimeout(() => {
             employees.push(emp);
-            let employ = true ;
-            employ ? success("yes, inserted successfully") : failure("Sorry not inserted");
+            let employee = true ;
+            employee ? success("yes, inserted successfully") : failure("Sorry not inserted");
   
         }, 4000);
          
@@ -131,7 +131,7 @@
 
  let call = async ()=>{
   // console.log("test3");
-    await create_Employee({id:100, name:"vamsi",email:"vamsi@walmart.com",gender:"Male"})
+    await create_Employee({id:100, name:"vamsi",email:"vamsi@walmart.com",gender:"Male"}),
      get_Employee()
  }
  call();
