@@ -1,6 +1,7 @@
-import ReactDOM from 'react-dom'
+import ReactDom from 'react-dom'
 import App from './App'
 
-ReactDOM.render(<div>
+
+ReactDom.render(<div>
     <App />
 </div>, document.getElementById('router'))
