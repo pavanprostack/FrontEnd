@@ -6,6 +6,7 @@ import Using_componentlifecycle from './User/Using_componentlifecycle'   // User
 import Product from './Product/Product'
 import Student from './Student/Student'
 import Users from './UserObject/Users'
+import ProductObject from './ProductObject/Product'
 
 
 
@@ -19,6 +20,7 @@ class App extends React.Component {
                     <Route path='/product' element={<Product />}/>
                     <Route path='/student' element={<Student />} />
                     <Route path='/userobject' element={<Users />} />
+                    <Route path='/prdct' element={<ProductObject />} />
                 </Routes>
             </Router>
         </>

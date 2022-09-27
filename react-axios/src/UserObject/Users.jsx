@@ -35,9 +35,9 @@ class Users extends React.Component {
                                     Object.keys(this.state.persons).length > 0 ?
                                         <>
                                             {
-                                                this.state.persons.data.map((person, index) => {
+                                                this.state.persons.data.map((person) => {
                                                     return <>
-                                                        <tr key={index}>
+                                                        <tr key={person.id}>
                                                             <td>{person.id}</td>
                                                             <td>{person.email}</td>
                                                             <td>{person.first_name}</td>
