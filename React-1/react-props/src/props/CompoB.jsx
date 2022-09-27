@@ -10,7 +10,6 @@ let CompoB =(props)=>{           // --------> for function we need to declare pr
         <h3>eName={props.eDetails.name}</h3>
         <h3>empId={props.eDetails.id}</h3>
         <h4>{props.arrElements[2]}</h4>
-        
     </div>
 }
 export default CompoB  

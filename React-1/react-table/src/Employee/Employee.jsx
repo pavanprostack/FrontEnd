@@ -1,7 +1,7 @@
 import React from 'react'
 
 class Employee extends React.Component {
-  consructor(props){
+  constructor(props) {
     super(props)
     this.state = {
       users: [{ "id": 1, "first_name": "Rani", "last_name": "Patrickson", "email": "rpatrickson0@merriam-webster.com", "gender": "Female" },
@@ -56,25 +56,25 @@ class Employee extends React.Component {
       { "id": 50, "first_name": "Gannon", "last_name": "Broschek", "email": "gbroschek1d@google.fr", "gender": "Bigender" }]
     }
   }
- 
- render(){
-  return <div className="container">
-    <div className="row">
-      <div className="col-6">
-        <table className='table table-hover'>
-          <thead className='bg-primary'>
-           <tr>
-           <th>Id</th>
-            <th>FirstName</th>
-            <th>SecondName</th>
-            <th>Email</th>
-            <th>Gender</th>
-           </tr>
-          </thead>
-          <tbody>
-            {
-              this.state.users.map((user, index)=>{
-                 
+
+  render() {
+    return <div className="container">
+      <div className="row">
+        <div className="col-6">
+          <table className='table table-hover'>
+            <thead className='bg-primary'>
+              <tr>
+                <th>Id</th>
+                <th>FirstName</th>
+                <th>SecondName</th>
+                <th>Email</th>
+                <th>Gender</th>
+              </tr>
+            </thead>
+            <tbody>
+              {
+                this.state.users.map((user, index) => {
+
                   return <tr key={index}>
                     {/* <td>{index}</td> */}
                     <td>{user.id}</td>
@@ -83,16 +83,16 @@ class Employee extends React.Component {
                     <td>{user.email}</td>
                     <td>{user.gender}</td>
                   </tr>
-                
-              })
-                
+
+                })
+
               }
-            
-          </tbody>
-        </table>
+
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
-  </div>
- }
+  }
 }
 export default Employee
