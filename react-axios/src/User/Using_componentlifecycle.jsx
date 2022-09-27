@@ -36,8 +36,8 @@ class Using_componentlifecycle extends React.Component{
                 this.state.users.length >0 ?                 // Ternary Operator.
                 <>
                 {
-                  this.state.users.map((user)=>{
-                    return <tr>
+                  this.state.users.map((user, index)=>{
+                    return <tr key={index}>
                       <td>{user.id}</td>
                       <td>{user.name}</td>
                       <td>{user.email}</td>
