@@ -7,6 +7,7 @@ import Product from './Product/Product'
 import Student from './Student/Student'
 import Users from './UserObject/Users'
 import ProductObject from './ProductObject/Product'
+import Items from './Items/Items'
 
 
 
@@ -21,6 +22,7 @@ class App extends React.Component {
                     <Route path='/student' element={<Student />} />
                     <Route path='/userobject' element={<Users />} />
                     <Route path='/prdct' element={<ProductObject />} />
+                    <Route path='/items' element={<Items />} />
                 </Routes>
             </Router>
         </>
