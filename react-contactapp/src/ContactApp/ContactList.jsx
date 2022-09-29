@@ -9,7 +9,7 @@ class ContactList extends Component {
   render() {
     return <>
     {/* <pre>{JSON.stringify(this.props.pavan)}</pre> */}
-    <pre>{JSON.stringify(this.props)}</pre>
+    {/* <pre>{JSON.stringify(this.props)}</pre> */}
     <div className="container">
       <div className="row">
         <div className="col">
@@ -26,7 +26,7 @@ class ContactList extends Component {
             <tbody>
               {
                 this.props.pavan.users.map((user, index)=>{
-                  return <tr key={index} onClick={this.getUser.bind(this, user)}>
+                  return <tr key={index} onMouseOver={this.getUser.bind(this, user)}>
                     <td>{user.id}</td>
                    <td>{user.firstName}</td>
                    <td>{user.lastName}</td>

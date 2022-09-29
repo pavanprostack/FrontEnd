@@ -9,6 +9,7 @@ class Navbar extends React.Component{
             <div className='ml-auto'>
                 <ul className='navbar-nav'>
                     <li className='nav-list'><Link to="contact" className='nav-link'>Contact</Link></li>
+                    <li className='nav-list'><Link to="product" className='nav-link'>Product</Link></li>
                 </ul>
             </div>
             
