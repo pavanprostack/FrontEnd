@@ -1,8 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router, Routes, Route  } from 'react-router-dom'
 import Navbar from './Navbar/Navbar'
-import Contacts from './Contacts/Contacts'
-import ContactList from './ContactList/ContactList'
+import ContactApp from './ContactApp/ContactApp'
 
 
 class App extends React.Component{
@@ -11,8 +10,7 @@ class App extends React.Component{
         <Router>
             <Navbar />
             <Routes>
-                <Route path='contacts' element={<Contacts />} />
-                <Route path ='contactlist' element={<ContactList />} />
+                <Route path="contact" element={<ContactApp />} />
             </Routes>
         </Router>
         </>
