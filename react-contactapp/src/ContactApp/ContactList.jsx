@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 
 
 class ContactList extends Component {
-  getUser = (user)=>{
-    this.setState(console.log(user))
-    this.props.method1(user);
+  getUser = (value)=>{
+    console.log(value)
+    this.props.method1(value);
   }
   render() {
     return <>
@@ -23,7 +23,7 @@ class ContactList extends Component {
                 <th>Email</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className='bg-success'>
               {
                 this.props.pavan.users.map((user, index)=>{
                   return <tr key={index} onMouseOver={this.getUser.bind(this, user)}>

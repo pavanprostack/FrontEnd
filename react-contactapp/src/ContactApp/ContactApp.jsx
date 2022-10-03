@@ -13,9 +13,9 @@ class ContactApp extends Component {
     }
   }
 
-  getSelectedUser = (user)=>{
-    console.log(user.firstName)
-    this.setState({selectedUsers:user})
+  getSelectedUser = (value)=>{
+    console.log(value.firstName)
+    this.setState({selectedUsers:value})
   }
 
   componentDidMount = ()=>{

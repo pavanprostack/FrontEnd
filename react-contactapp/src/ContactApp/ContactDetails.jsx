@@ -8,12 +8,12 @@ export class ContactDetails extends Component {
         <div className="row">
             <div className="col">
                 <div className="card">
-                    <div className="card-header">
+                    <div className="card-header bg-warning">
                         {
                             <img src={this.props.kalyan.image} alt="" height='170px' />
                         }
                     </div>
-                    <div className="card-body">
+                    <div className="card-body bg-dark">
                         <ul className='list-group'>
                             <li className='list-group-item'>{this.props.kalyan.firstName + " " + this.props.kalyan.lastName}</li>
                             <li className='list-group-item'>{this.props.kalyan.id}</li>
