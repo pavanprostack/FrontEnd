@@ -5,6 +5,7 @@ import Product from './Product/Product'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Item from './Product/Item'
 import Clock from './Clock/Clock'
+import API from './UseEffectHook/API'
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
         <Route  path='/product' element={<Product />}/>
         <Route  path='/item' element={<Item />}/>
         <Route path='/clock' element={<Clock />} />
+        <Route path='/useEffect' element={<API />} />
       </Routes>
     </Router>
     </div>
