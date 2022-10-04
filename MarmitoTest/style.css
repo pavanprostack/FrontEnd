@@ -19,9 +19,15 @@ body {
 
 }
 
+.row{
+    width: 100%;
+}
+
+
 .heading {
     margin-left: 200px;
     margin-top: 30px;
+    font-size: 30px;
 }
 
 
@@ -37,10 +43,12 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 290px);
     margin-left: 120px;
+   
+  }
 
-}
 
 .image2,
 .image5 {
-    margin-top: 70px;
+    margin-top: 80px;
 }
+
