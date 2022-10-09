@@ -26,7 +26,7 @@ class ContactList extends Component {
             <tbody className='bg-success'>
               {
                 this.props.pavan.users.map((user, index)=>{
-                  return <tr key={index} onMouseOver={this.getUser.bind(this, user)}>
+                  return <tr key={index} onClick={this.getUser.bind(this, user)}>
                     <td>{user.id}</td>
                    <td>{user.firstName}</td>
                    <td>{user.lastName}</td>
