@@ -1,7 +1,8 @@
-
+// action type
 const GM = "GM"
 const GN = "GN"
 
+// action
 let gmAction=()=>{
     console.log("it is from GmAction");
     return {type:GM}

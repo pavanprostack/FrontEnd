@@ -14,7 +14,7 @@ const ProductApp = () => {
     }
 
         React.useEffect(() => {
-            Axios.get('').then((response) => {
+            Axios.get('https://dummyjson.com/products').then((response) => {
                 setProduct({ product: response.data })
             }).catch()
         }, [])

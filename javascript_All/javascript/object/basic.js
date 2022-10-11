@@ -120,4 +120,12 @@ for(i=0; i<=users.length-1; i++){
 
 
 
+{
+    console.log(a)
+    console.log(b)
+}
+var a=10;         // undefined
+let b=23;         // error
+
+
 
