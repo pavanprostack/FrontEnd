@@ -1,8 +1,14 @@
 import React from 'react'
+import Counter from './Counter/Counter'
+import {Provider} from 'react-redux'
+import {store} from './Redux/store'
 
 const App = () => {
   return <>
-  <h1>App</h1>
+ <Provider store={store}>
+  <h1>Counter Component</h1>
+  <Counter />
+ </Provider>
   </>
 }
 

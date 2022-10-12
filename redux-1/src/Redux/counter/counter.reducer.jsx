@@ -1,4 +1,4 @@
-import {decrAction, incrAction} from './counter.action'
+import {DECR, INCR} from './counter.action'
 
 let initialState = {
     name:"Iphone 14",
