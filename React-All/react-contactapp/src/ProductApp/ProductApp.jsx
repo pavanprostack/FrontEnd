@@ -5,7 +5,7 @@ import ProductDetails from './ProductDetails'
 
 
 const ProductApp = () => {
-    let [product, setProduct] = React.useState({})
+    let [product, setProduct] = useState({})
     let [selectedProduct, setSelectedProduct] = React.useState({})
 
     let getProduct = (kalyan)=>{
@@ -13,7 +13,7 @@ const ProductApp = () => {
         setSelectedProduct({selectedProduct:kalyan})
     }
 
-        React.useEffect(() => {
+        useEffect(() => {
             Axios.get('https://dummyjson.com/products').then((response) => {
                 setProduct({ product: response.data })
             }).catch()
