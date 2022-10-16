@@ -1,33 +1,44 @@
 import React from 'react'
-import { useEffect } from 'react'
 import { useState } from 'react'
-import { json } from 'react-router-dom'
+import Axios from 'axios'
+
 
 const CreateProduct = () => {
 
-  let [products, setProducts]= useState({
-   productName : "",
-   price : "",
-   image : "",
-   qty : "",
-   info : ""
+    let [product, setProducts] = useState({
+        productName: "",
+        price: "",
+        image: "",
+        qty: "",
+        info: ""
 
-})
+    })
 
 
-let updateHandler = (event)=>{
-   setProducts({...products, [event.target.name] : event.target.value})
-}
+    let updateHandler = (event) => {
+        setProducts({ ...product, [event.target.name]: event.target.value })
+    }
 
-let submitHandler = (event)=>{
-   event.preventDefault();
-   alert(JSON.stringify(products));
-}
+    let [submitted, setSubmitted] = useState(false)
 
-  
+    let submitHandler = (event) => {
+        event.preventDefault();
+        //    alert(JSON.stringify(product))
+
+        let url = 'http://127.0.0.1:5000/api/products/';
+        Axios.post(url, product).then((response) => {
+            console.log(response.data)
+            setSubmitted(true);
+        }).catch(() => { })
+
+
+    }
+
+
     return <>
         <div className="container mt-5">
-         <pre>{JSON.stringify(products)}</pre>
+            <pre>{JSON.stringify(product)}</pre>
+            <pre>{JSON.stringify(submitted)}</pre>
             <div className="row">
                 <div className="col-6">
                     <div className="card">
