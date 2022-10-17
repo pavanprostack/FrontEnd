@@ -3,10 +3,10 @@ import {gmAction, gnAction} from '../Redux/message/message.action'
 import {useDispatch, useSelector} from 'react-redux'
 
 const Message = () => {
-  // let [message, setMessage] = React.useState("Hello")
-  let dispatch = useDispatch()
+  
+  let dispatch = useDispatch()              // here we are dispatching an action.
 
-  let message = useSelector((state)=>{
+  let message = useSelector((state)=>{           // with the help of use selector we can read store data.
     return state
   })
 
